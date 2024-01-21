@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+.logo img{
+    height: 85px;
+    width: 85px;
+    
+
+}
+.logo{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav_items {
+    
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+:hover.home{
+    color: rgb(247, 73, 131);
+}
+.material-symbols-outlined{
+    color: rgba(232, 220, 220, 0.915);
+    font-size: 34px;
+    background-color: rgba(198, 207, 215, 0.749);
+    
+    
+}
+.search_bar{
+   display: flex;
+   position: relative;
+   right: 200px;
+   text-align: center;
+   margin-left: 30px;
+   
+   float: left;
+   margin-left: 200px;
+
+ 
+   
+   
+   
+}
+
+h1{
+    font-size: 50px;
+}
+.banner{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    display: inline-block;
+    height: auto;
+    border: solid rgb(252, 243, 243) 2px;
+    
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+margin-top: 15px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.193);
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+   
+}
+.disc{
+    
+    margin-top: 200px;
+    position: relative;
+    top: 50px;
+}
